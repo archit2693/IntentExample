@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">IntentExample</string>
+    <string-array name="names">
+        <item> "Ball" </item>
+        <item> "Mushroom" </item>
+        <item> "Faded Play" </item>
+        <item> "Dull Ball" </item>
+        <item> "Play" </item>
+       
+    </string-array>
+    
+    <string-array name="email">
+        <item> "Ball@abc.com" </item>
+        <item> "Mushroom@abc.com" </item>
+        <item> "playfaded@abc.com" </item>
+        <item> "dullball@abc.com" </item>
+        <item> "play@abc.com" </item>
+    </string-array>
+    
+    <string-array name="mobile">
+        <item> "464946441631" </item>
+        <item> "134684324537" </item>
+        <item> "787585795466" </item>
+        <item> "255468776544" </item>
+        <item> "997849994344" </item>
+
+
+    </string-array>
+</resources>

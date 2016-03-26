@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/card_view"
+        android:padding="10dp"
+        android:elevation="5dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:elevation="5dp">
+            <!--android:paddingLeft="25dp"-->
+            <!--android:paddingRight="25dp"-->
+            <!--android:paddingTop="10dp"-->
+
+
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/greenball"
+                android:id="@+id/person_image"
+                android:paddingTop="5dp"
+                android:paddingLeft="10dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/person_name"
+                android:padding="10dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:id="@+id/person_email"
+                android:layout_centerHorizontal="true"
+                android:layout_above="@+id/person_mobile" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone Number"
+                android:id="@+id/person_mobile"
+                android:padding="10dp"
+                android:layout_alignBottom="@+id/person_image"
+                android:layout_alignStart="@+id/person_name" />
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="3dp"
+                android:paddingTop="30dp"
+                android:background="@color/colorPrimaryDark"
+
+                android:layout_below="@+id/person_mobile"
+                android:layout_alignStart="@+id/person_image"
+                android:layout_marginTop="29dp">
+
+            </View>
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aj.intentexample">
+<uses-permission
+    android:name="android.permission.SET_WALLPAPER"></uses-permission>
+    <uses-permission android:name="android.permission.WAKE_LOCK">
+    </uses-permission>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".kennyS"></activity>
+        <activity android:name=".Menu"  android:screenOrientation="portrait"> >
+            <intent-filter>
+                     <action android:name="android.intent.action.MAIN" />
+                     <category android:name="android.intent.category.LAUNCHER" />
+             </intent-filter>
+        </activity>
+        <activity android:name=".TextPlay"></activity>
+        <activity android:name=".Email"></activity>
+        <activity android:name=".Camera"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".Data"></activity>
+        <activity android:name=".OpenedClass"></activity>
+        <activity android:name=".AboutUs"
+            android:theme="@android:style/Theme.Dialog"
+            android:screenOrientation="portrait"> >
+            <intent-filter>
+                <action android:name="android.intent.action.ABOUT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Prefs" android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.PREFS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".GFX"></activity>
+        <activity android:name=".GFXSurface"></activity>
+        <activity android:name=".SoundStuff"></activity>
+        <activity android:name=".Slider"></activity>
+        <activity android:name=".Tabs"></activity>
+        <activity android:name=".SimpleBrowser"></activity>
+        <activity android:name=".Flipper"></activity>
+        <activity android:name=".SharedPrefs"></activity>
+        <activity android:name=".InternalData"></activity>
+        <activity android:name=".ExternalData"></activity>
+        <activity android:name=".SQLiteExample"></activity>
+        <activity android:name=".SQLView"></activity>
+        <activity android:name=".Accelerate"></activity>
+        <activity android:name=".HttpExample"></activity>
+        <activity android:name=".Voice"></activity>
+        <activity android:name=".ToolbarExample"></activity>
+        <activity android:name=".RecyclerDemo"></activity>
+        <activity android:name=".CardViewDemo"></activity>
+        <activity android:name=".ContactDetails"></activity>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </application>
+
+</manifest>
